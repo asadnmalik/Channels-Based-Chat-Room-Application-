@@ -79,6 +79,9 @@ currentUsername.innerText = "Your current username is " + username;
 
 // Class Instances
 const chatUI = new ChatUI(chatList);
+
+//default channel on load
+document.querySelector("#general").style.backgroundColor ="rgb(99, 59, 0)";
 const chatroom = new Chatroom(username, 'general');
 
 // Get chats
