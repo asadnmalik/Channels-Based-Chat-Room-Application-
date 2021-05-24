@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: rgb(54, 57, 63);
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.btn {
+    background: rgb(194,123,14);
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+.btn:focus {
+    outline: none !important;
+}
+
+form .input-group-text{
+    background-color: rgb(194,123,14);
+    
+    color: white;
+}
+
+
+.chat-list{
+    height: 500px;
+    overflow: auto;
+    overflow-y: scroll;
+
+}
+
+
+.chat-list li{
+    background-color: rgb(54, 57, 63);
+}
+
+.username {
+    font-weight: bold;
+    color: rgb(194,123,14);
+}
+
+.time {
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-msg {
+    text-align: center;
+    margin: 20px auto;
+}
