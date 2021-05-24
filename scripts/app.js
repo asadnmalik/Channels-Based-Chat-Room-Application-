@@ -71,9 +71,11 @@ rooms.addEventListener('click', e => {
 })
 
 // get username from local storage. 
-const username = localStorage.username ? localStorage.username : "Guest";
+
+localStorage.username = localStorage.username ? localStorage.username : "Guest";
+const username = localStorage.username;
 const currentUsername = document.querySelector(".username-msg");
-currentUsername.innerText = "Your current username is " + localStorage.username;
+currentUsername.innerText = "Your current username is " + username;
 
 // Class Instances
 const chatUI = new ChatUI(chatList);
