@@ -14,10 +14,13 @@ Visit https://firebase.google.com/ and Get Started with your google account.
 
 Then you can add a new project. 
 ![image](https://user-images.githubusercontent.com/77789434/120463194-17c1b600-c3b5-11eb-9aa5-02ea87192ed5.png)
+
 Continue further and in a few minutes firebase will create your project. 
 ![image](https://user-images.githubusercontent.com/77789434/120463339-3e7fec80-c3b5-11eb-81c4-663546e1de22.png)
+
 You will be directed to your project's console, here you can set up an app by clicking on the Web icon. 
 ![image](https://user-images.githubusercontent.com/77789434/120463485-62dbc900-c3b5-11eb-8aac-6d39c8c33a79.png)
+
 Once setup, firebase will give you your configuration to use in your source code.
 ![image](https://user-images.githubusercontent.com/77789434/120463714-a20a1a00-c3b5-11eb-8757-d3d22b6b2338.png)
 
